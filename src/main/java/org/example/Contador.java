@@ -27,6 +27,7 @@ public class Contador {
         }
     }
 }
+
 class ParametrosInvalidosException extends Exception {
     public ParametrosInvalidosException(String message) {
         super(message);
